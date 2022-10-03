@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 70vw;
+  margin-left: 15vw;
+  justify-content: center;
+  color: #f0f1de;
+  font-family: "Titan One";
+  background: rgb(218, 125, 13);
+}
+
+.border {
+  border: double antiquewhite 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  min-height: 50px;
+}
+
+.title {
+  font-family: "Titan One";
+  text-shadow: 0px 2px #7e54ed;
+  font-size: xx-large;
+  background-color: #030a48;
+}
+
+.extra,
+.med {
+  min-height: 100px;
+  padding: 30px;
+}
+
+.small {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+button {
+  background-color: rgb(21, 22, 22);
+  margin: 4px;
+  color: antiquewhite;
+  border: solid antiquewhite;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
