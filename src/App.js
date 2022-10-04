@@ -12,7 +12,7 @@ export default function App() {
   const [score, setScore] = useState(0)
   const [num, setNum] = useState({})
 
-  const url = "http://jservice.io/api/random"
+  const url = "https://jservice.io/api/random"
 
 
 
